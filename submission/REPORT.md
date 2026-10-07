@@ -1,6 +1,7 @@
 # Lab 21 — Evaluation Report
 
 **Họ tên**: Ngo Doan Ngoc  **MSSV**: 2A202602635  **Ngày**: 2026-10-07
+**Adapter (HF Hub)**: https://huggingface.co/DNgoc/lab21-qwen35-triage-vi
 **Tier**: `T4`  **Base model**: `unsloth/Qwen3.5-4B`  **GPU thực tế**: Tesla T4 (Colab Free, 14,6 GB khả dụng, sm_75 → fp16)
 
 > Mọi con số dưới đây lấy trực tiếp từ các file trong `results/` (lần chạy đầy đủ, `eval_limit = null`,
@@ -249,7 +250,7 @@ quả chưa được lưu ra ngoài VM thì coi như chưa có.
 - [ ] B2 dataset miền riêng (`data/CUSTOM_DATASET.md`)
 - [ ] B3 reasoning-trace collapse (hai `MASK_MODE`, kèm `valid_trace_rate`)
 - [ ] B4 quét rank có kiểm soát
-- [ ] B5 HuggingFace Hub — link: (chưa làm)
+- [x] B5 HuggingFace Hub — link: https://huggingface.co/DNgoc/lab21-qwen35-triage-vi (adapter `correct`, public)
 
 **Trạng thái `make verify` (Colab, trước khi điền report):** 25 passed · 1 warning · 1 failure. Failure duy nhất là
 *"REPORT.md filled in"* (vì lúc đó report vẫn là mẫu), và chính báo cáo này sửa lỗi đó. Các kiểm tra liêm chính đều xanh:
